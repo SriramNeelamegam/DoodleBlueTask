@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFA94A324C618280044F0A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA94A224C618280044F0A9 /* AppDelegate.swift */; };
+		CEFA94A524C618280044F0A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA94A424C618280044F0A9 /* SceneDelegate.swift */; };
+		CEFA94A724C618280044F0A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA94A624C618280044F0A9 /* ViewController.swift */; };
+		CEFA94AA24C618280044F0A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFA94A824C618280044F0A9 /* Main.storyboard */; };
+		CEFA94AD24C618280044F0A9 /* Doodleblue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFA94AB24C618280044F0A9 /* Doodleblue.xcdatamodeld */; };
+		CEFA94AF24C618290044F0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA94AE24C618290044F0A9 /* Assets.xcassets */; };
+		CEFA94B224C618290044F0A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFA94B024C618290044F0A9 /* LaunchScreen.storyboard */; };
+		CEFA94BD24C618290044F0A9 /* DoodleblueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA94BC24C618290044F0A9 /* DoodleblueTests.swift */; };
+		CEFA94C824C618290044F0A9 /* DoodleblueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA94C724C618290044F0A9 /* DoodleblueUITests.swift */; };
+		CEFF3C8724C658B000DB7E85 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF3C8624C658B000DB7E85 /* MainTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFA94B924C618290044F0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFA949724C618280044F0A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFA949E24C618280044F0A9;
+			remoteInfo = Doodleblue;
+		};
+		CEFA94C424C618290044F0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFA949724C618280044F0A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFA949E24C618280044F0A9;
+			remoteInfo = Doodleblue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEFA949F24C618280044F0A9 /* Doodleblue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doodleblue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFA94A224C618280044F0A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFA94A424C618280044F0A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEFA94A624C618280044F0A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFA94A924C618280044F0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFA94AC24C618280044F0A9 /* Doodleblue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Doodleblue.xcdatamodel; sourceTree = "<group>"; };
+		CEFA94AE24C618290044F0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFA94B124C618290044F0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFA94B324C618290044F0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFA94B824C618290044F0A9 /* DoodleblueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleblueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFA94BC24C618290044F0A9 /* DoodleblueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleblueTests.swift; sourceTree = "<group>"; };
+		CEFA94BE24C618290044F0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFA94C324C618290044F0A9 /* DoodleblueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleblueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFA94C724C618290044F0A9 /* DoodleblueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleblueUITests.swift; sourceTree = "<group>"; };
+		CEFA94C924C618290044F0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFF3C8624C658B000DB7E85 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFA949C24C618280044F0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFA94B524C618290044F0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFA94C024C618290044F0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFA949624C618280044F0A9 = {
+			isa = PBXGroup;
+			children = (
+				CEFA94A124C618280044F0A9 /* Doodleblue */,
+				CEFA94BB24C618290044F0A9 /* DoodleblueTests */,
+				CEFA94C624C618290044F0A9 /* DoodleblueUITests */,
+				CEFA94A024C618280044F0A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFA94A024C618280044F0A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA949F24C618280044F0A9 /* Doodleblue.app */,
+				CEFA94B824C618290044F0A9 /* DoodleblueTests.xctest */,
+				CEFA94C324C618290044F0A9 /* DoodleblueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFA94A124C618280044F0A9 /* Doodleblue */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA94A224C618280044F0A9 /* AppDelegate.swift */,
+				CEFA94A424C618280044F0A9 /* SceneDelegate.swift */,
+				CEFA94A624C618280044F0A9 /* ViewController.swift */,
+				CEFF3C8624C658B000DB7E85 /* MainTableViewCell.swift */,
+				CEFA94A824C618280044F0A9 /* Main.storyboard */,
+				CEFA94AE24C618290044F0A9 /* Assets.xcassets */,
+				CEFA94B024C618290044F0A9 /* LaunchScreen.storyboard */,
+				CEFA94B324C618290044F0A9 /* Info.plist */,
+				CEFA94AB24C618280044F0A9 /* Doodleblue.xcdatamodeld */,
+			);
+			path = Doodleblue;
+			sourceTree = "<group>";
+		};
+		CEFA94BB24C618290044F0A9 /* DoodleblueTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA94BC24C618290044F0A9 /* DoodleblueTests.swift */,
+				CEFA94BE24C618290044F0A9 /* Info.plist */,
+			);
+			path = DoodleblueTests;
+			sourceTree = "<group>";
+		};
+		CEFA94C624C618290044F0A9 /* DoodleblueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA94C724C618290044F0A9 /* DoodleblueUITests.swift */,
+				CEFA94C924C618290044F0A9 /* Info.plist */,
+			);
+			path = DoodleblueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFA949E24C618280044F0A9 /* Doodleblue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFA94CC24C618290044F0A9 /* Build configuration list for PBXNativeTarget "Doodleblue" */;
+			buildPhases = (
+				CEFA949B24C618280044F0A9 /* Sources */,
+				CEFA949C24C618280044F0A9 /* Frameworks */,
+				CEFA949D24C618280044F0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doodleblue;
+			productName = Doodleblue;
+			productReference = CEFA949F24C618280044F0A9 /* Doodleblue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFA94B724C618290044F0A9 /* DoodleblueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFA94CF24C618290044F0A9 /* Build configuration list for PBXNativeTarget "DoodleblueTests" */;
+			buildPhases = (
+				CEFA94B424C618290044F0A9 /* Sources */,
+				CEFA94B524C618290044F0A9 /* Frameworks */,
+				CEFA94B624C618290044F0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFA94BA24C618290044F0A9 /* PBXTargetDependency */,
+			);
+			name = DoodleblueTests;
+			productName = DoodleblueTests;
+			productReference = CEFA94B824C618290044F0A9 /* DoodleblueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFA94C224C618290044F0A9 /* DoodleblueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFA94D224C618290044F0A9 /* Build configuration list for PBXNativeTarget "DoodleblueUITests" */;
+			buildPhases = (
+				CEFA94BF24C618290044F0A9 /* Sources */,
+				CEFA94C024C618290044F0A9 /* Frameworks */,
+				CEFA94C124C618290044F0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFA94C524C618290044F0A9 /* PBXTargetDependency */,
+			);
+			name = DoodleblueUITests;
+			productName = DoodleblueUITests;
+			productReference = CEFA94C324C618290044F0A9 /* DoodleblueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFA949724C618280044F0A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sri Ram";
+				TargetAttributes = {
+					CEFA949E24C618280044F0A9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CEFA94B724C618290044F0A9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CEFA949E24C618280044F0A9;
+					};
+					CEFA94C224C618290044F0A9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CEFA949E24C618280044F0A9;
+					};
+				};
+			};
+			buildConfigurationList = CEFA949A24C618280044F0A9 /* Build configuration list for PBXProject "Doodleblue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFA949624C618280044F0A9;
+			productRefGroup = CEFA94A024C618280044F0A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFA949E24C618280044F0A9 /* Doodleblue */,
+				CEFA94B724C618290044F0A9 /* DoodleblueTests */,
+				CEFA94C224C618290044F0A9 /* DoodleblueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFA949D24C618280044F0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA94B224C618290044F0A9 /* LaunchScreen.storyboard in Resources */,
+				CEFA94AF24C618290044F0A9 /* Assets.xcassets in Resources */,
+				CEFA94AA24C618280044F0A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFA94B624C618290044F0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFA94C124C618290044F0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFA949B24C618280044F0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA94A724C618280044F0A9 /* ViewController.swift in Sources */,
+				CEFA94A324C618280044F0A9 /* AppDelegate.swift in Sources */,
+				CEFA94AD24C618280044F0A9 /* Doodleblue.xcdatamodeld in Sources */,
+				CEFA94A524C618280044F0A9 /* SceneDelegate.swift in Sources */,
+				CEFF3C8724C658B000DB7E85 /* MainTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFA94B424C618290044F0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA94BD24C618290044F0A9 /* DoodleblueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFA94BF24C618290044F0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA94C824C618290044F0A9 /* DoodleblueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFA94BA24C618290044F0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFA949E24C618280044F0A9 /* Doodleblue */;
+			targetProxy = CEFA94B924C618290044F0A9 /* PBXContainerItemProxy */;
+		};
+		CEFA94C524C618290044F0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFA949E24C618280044F0A9 /* Doodleblue */;
+			targetProxy = CEFA94C424C618290044F0A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFA94A824C618280044F0A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFA94A924C618280044F0A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFA94B024C618290044F0A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFA94B124C618290044F0A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFA94CA24C618290044F0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFA94CB24C618290044F0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFA94CD24C618290044F0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56ZYW6Q36;
+				INFOPLIST_FILE = Doodleblue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.consim.Doodleblue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFA94CE24C618290044F0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56ZYW6Q36;
+				INFOPLIST_FILE = Doodleblue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.consim.Doodleblue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFA94D024C618290044F0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56ZYW6Q36;
+				INFOPLIST_FILE = DoodleblueTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.consim.DoodleblueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doodleblue.app/Doodleblue";
+			};
+			name = Debug;
+		};
+		CEFA94D124C618290044F0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56ZYW6Q36;
+				INFOPLIST_FILE = DoodleblueTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.consim.DoodleblueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doodleblue.app/Doodleblue";
+			};
+			name = Release;
+		};
+		CEFA94D324C618290044F0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56ZYW6Q36;
+				INFOPLIST_FILE = DoodleblueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.consim.DoodleblueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Doodleblue;
+			};
+			name = Debug;
+		};
+		CEFA94D424C618290044F0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56ZYW6Q36;
+				INFOPLIST_FILE = DoodleblueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.consim.DoodleblueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Doodleblue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFA949A24C618280044F0A9 /* Build configuration list for PBXProject "Doodleblue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFA94CA24C618290044F0A9 /* Debug */,
+				CEFA94CB24C618290044F0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFA94CC24C618290044F0A9 /* Build configuration list for PBXNativeTarget "Doodleblue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFA94CD24C618290044F0A9 /* Debug */,
+				CEFA94CE24C618290044F0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFA94CF24C618290044F0A9 /* Build configuration list for PBXNativeTarget "DoodleblueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFA94D024C618290044F0A9 /* Debug */,
+				CEFA94D124C618290044F0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFA94D224C618290044F0A9 /* Build configuration list for PBXNativeTarget "DoodleblueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFA94D324C618290044F0A9 /* Debug */,
+				CEFA94D424C618290044F0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEFA94AB24C618280044F0A9 /* Doodleblue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEFA94AC24C618280044F0A9 /* Doodleblue.xcdatamodel */,
+			);
+			currentVersion = CEFA94AC24C618280044F0A9 /* Doodleblue.xcdatamodel */;
+			path = Doodleblue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEFA949724C618280044F0A9 /* Project object */;
+}
